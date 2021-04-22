@@ -6,7 +6,7 @@ updates:
       interval: "daily"
     ignore:
       - dependency-name: "numpy"
-        versions: ["1.12.x"]
+        versions: ["1.11.3"]
       - dependency-name: "boto3"
       - dependency-name: "numpy"
         update-types: ["version-update:semver-minor"]
