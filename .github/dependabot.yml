@@ -7,7 +7,8 @@ updates:
     ignore:
       - dependency-name: "numpy"
         versions: ["1.12.x"]
-      - dependency-name: "numpy"
       - dependency-name: "boto3"
       - dependency-name: "numpy"
         update-types: ["version-update:semver-minor"]
+      - dependency-name: "pep8"
+        update-types: ["version-update:semver-patch"]
