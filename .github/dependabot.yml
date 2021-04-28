@@ -10,7 +10,7 @@ updates:
       - dependency-name: "boto3"
       - dependency-name: "numpy"
         versions: ["1.11.3"]
-        update-types: ["version-update:semver-patch"]
+        update-types: ["version-update:semver-minor"]
       - dependency-name: "pep8"
         update-types: ["version-update:semver-patch"]
 
