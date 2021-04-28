@@ -5,13 +5,12 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    open-pull-requests-limit: 100
     ignore:
       - dependency-name: "boto3"
       - dependency-name: "numpy"
         versions: ["1.11.3"]
         update-types: ["version-update:semver-patch"]
-      - dependency-name: "numpy"
-        update-types: ["version-update:semver-minor"]
       - dependency-name: "pep8"
         update-types: ["version-update:semver-patch"]
 
